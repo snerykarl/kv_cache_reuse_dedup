@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "snerykarl-compress_jd005"
+name = "snerykarl-kv_cache_reuse_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出模型压缩工程师·KV Cache 复用与前缀共享上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://snerykarl.github.io"
-Repository = "https://github.com/snerykarl/compress_jd005"
-Issues = "https://github.com/snerykarl/compress_jd005/issues"
+Repository = "https://github.com/snerykarl/kv_cache_reuse_dedup"
+Issues = "https://github.com/snerykarl/kv_cache_reuse_dedup/issues"
 
 [project.scripts]
-compress_jd005 = "compress_jd005:main"
+kv_cache_reuse_dedup = "kv_cache_reuse_dedup:main"
 
 [tool.setuptools]
-py-modules = ["compress_jd005"]
+py-modules = ["kv_cache_reuse_dedup"]
